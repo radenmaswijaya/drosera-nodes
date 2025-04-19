@@ -1,0 +1,8 @@
+{
+  "name": "drosera-node",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun deploy-trap.ts"
+  },
+  "dependencies": {}
+}
