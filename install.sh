@@ -41,9 +41,9 @@ foundryup
 curl -fsSL https://bun.sh/install | bash
 source ~/.bashrc || true
 
-# Clone project
+# Clone project dari repo publik (fix)
 mkdir -p /root/my-drosera-node
-git clone https://github.com/$USERNAME/drosera-node-raden.git /root/my-drosera-node || true
+git clone https://github.com/radenmaswijaya/drosera-nodes.git /root/my-drosera-node || true
 cd /root/my-drosera-node || exit 1
 
 # Inisialisasi proyek Bun jika belum
