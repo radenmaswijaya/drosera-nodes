@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 echo "======================================"
@@ -44,6 +45,10 @@ source ~/.bashrc || true
 # Clone project dari repo publik (fix)
 mkdir -p /root/my-drosera-node
 git clone https://github.com/radenmaswijaya/drosera-nodes.git /root/my-drosera-node || true
+
+# Salin file .env ke direktori project
+cp "$(pwd)/.env" /root/my-drosera-node/.env
+
 cd /root/my-drosera-node || exit 1
 
 # Inisialisasi proyek Bun jika belum
